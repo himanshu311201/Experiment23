@@ -12,3 +12,26 @@ h1{
 div{
 	border:1px solid black;
 }
+h1: hover{
+	color:darkblue;
+}
+span, footer{
+        background-color: yellow;
+}
+h2{
+      text-align: center;
+}
+section{
+      margin:auto;
+}
+        /* descendant selector */
+section p{
+      color: red;
+}
+        /* child selector */
+section>p{
+      color: brown;
+}
+p:hover{
+      background-color: blue;
+}
